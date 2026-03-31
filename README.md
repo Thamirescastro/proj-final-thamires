@@ -1,1 +1,2 @@
-# proj-final-thamires
+"# Projeto Final - Thamires" 
+"Objetivo: Demonstrar fluxos de Git Flow e colabora‡Æo." 
