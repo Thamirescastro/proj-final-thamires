@@ -1,2 +1,2 @@
 "# Projeto Final - Thamires" 
-"Objetivo: Demonstrar fluxos de Git Flow e colaboraá∆o." 
+"Objetivo: Demonstrar fluxos de Git Flow e colabora√ß√£o." 
