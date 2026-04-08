@@ -1,23 +1,17 @@
 # Script de Cadastramento de Livros - Contribuição de Thamires
 def cadastrar_biblioteca():
     biblioteca = []
-    print("--- Sistema de Cadastro da Biblioteca ---")
+    print("\n--- Sistema de Cadastro da Biblioteca ---")
 
     while True:
         titulo = input("Digite o título do livro (ou 'sair' para encerrar): ")
         if titulo.lower() == 'sair':
             break
-        
+
         autor = input(f"Digite o autor de '{titulo}': ")
         ano = input(f"Digite o ano de publicação: ")
-        
-        # Armazena os dados em um dicionário
-        livro = {
-            "titulo": titulo,
-            "autor": autor,
-            "ano": ano
-        }
-        
+
+        livro = {"titulo": titulo, "autor": autor, "ano": ano}
         biblioteca.append(livro)
         print(f"✅ Livro '{titulo}' cadastrado com sucesso!\n")
 
@@ -27,3 +21,9 @@ def cadastrar_biblioteca():
 
 if __name__ == "__main__":
     cadastrar_biblioteca()
+    
+// Melhoria: Adição de log de auditoria para registar a última alteração
+public void LogAlteracao() {
+    string dataHora = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
+    Console.WriteLine("Arquivo atualizado com sucesso em: " + dataHora);
+}
